@@ -3,15 +3,15 @@
     <nav>
       <ul>
         <li>
-          <h2>타이틀 제목 1</h2>
+          <h2>해외구매대행</h2>
           <router-link to="global_intro">소개</router-link>
-          <router-link to="global_lecture">강의</router-link>
-
-          <a href="#;">관련 정보</a>
-          <a href="#;"></a>
+          <router-link to="global_lecture">유튜버</router-link>
+          <router-link to="">강의</router-link>
+          <router-link to="">솔루션</router-link>
+          <router-link to="">배송대행업체</router-link>
         </li>
         <li>
-          <h2>타이틀 제목 2</h2>
+          <h2>위탁판매</h2>
           <a href="#;">소개</a>
           <a href="#;">강의</a>
           <a href="#;"></a>
