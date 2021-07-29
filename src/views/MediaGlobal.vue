@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-subheader>유튜버</v-subheader>
+    <v-subheader>유튜브&강의</v-subheader>
 
     <v-row>
       <v-col
@@ -57,7 +57,7 @@
             link : 'https://naver.com' ,
           } ,
           {
-            title : '서과장' , 
+            title : '잘나가는 서과장' , 
             desc : '해외구매대행 셀러이며 판매 이외에 다양한 정보를 많이 습득할 수 있는 유튜버이다' , 
             link : 'https://naver.com' ,
           } ,

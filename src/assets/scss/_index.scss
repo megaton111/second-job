@@ -1,5 +1,16 @@
 
 @import 'reset.scss';
+@import 'https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css' ;
+
+
+
+body {
+  .v-application{
+    font-family: 'NanumSquare', sans-serif !important;
+  }
+  font-size: 14px ; 
+}
+
 .v-app-bar{
   h1 {
     display: flex;
@@ -22,20 +33,40 @@
     display: flex;
     flex : 1 ;
     padding: 10px 40px;  
+    > div {
+      width: 100% ;
+    }
     .v-subheader{
       padding: 0 ; 
       font-weight: 700 ;
       color:#333 ; 
+      font-size:1.2rem ; 
     }
     .desc {
-      font-size: 0.8rem;
+      font-size: 1rem;
       line-height: 1.8 ; 
+      margin-bottom: 20px ;
     }
     .lst {
+      margin-bottom: 20px ;
       li {
-        font-size: 0.8rem;
+        font-size: 1rem;
         line-height: 1.8 ; 
       }
+    }
+  }
+}
+
+.contWrap{
+  .v-list-item__title, .v-list-item__subtitle{
+    white-space: normal ;
+  }
+  .v-list-item {
+    padding: 0 ; 
+  }
+
+  &.intro {
+    p {
     }
   }
 }
@@ -50,10 +81,10 @@
         flex-direction: column ;
         a {
           display: inline-flex;
-          font-size:12px ; 
           color:#333 ; 
-          padding-left: 10px ;
-          margin-bottom: 3px ;
+          margin-bottom: 3px ; 
+          font-size:0.8rem ; 
+          align-items: center ;
         }
         
         &:not(:first-child) h2 {
@@ -64,6 +95,27 @@
     h2 {
       font-size:14px ;
       margin-bottom: 5px ; 
+      font-size:1.2rem ; 
     }
+  }
+}
+
+.bxFilter{
+  display: flex;
+  flex-direction: row ;
+  align-items: center ;
+  p {
+    display: inline-flex;
+    margin:0 10px 0 0 ;
+    & + .v-input {
+      max-width: 300px ;
+    }
+  }
+
+}
+
+.globalmall{
+  .v-data-table{
+    margin-bottom: 40px ;
   }
 }
